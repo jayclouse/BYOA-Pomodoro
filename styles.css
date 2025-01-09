@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.timer {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 2rem 0;
+}
+
+.controls button {
+    font-size: 1.1rem;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.controls button#reset {
+    background-color: #ff4444;
+}
+
+.controls button#reset:hover {
+    background-color: #cc0000;
+}
+
+.controls button:hover {
+    background-color: #45a049;
+}
+
+.mode {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.subheading {
+    color: #666;
+    font-size: 1.2rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.controls button#work {
+    background-color: #4a90e2;
+}
+
+.controls button#work:hover {
+    background-color: #357abd;
+}
+
+.controls button#break {
+    background-color: #e2984a;
+}
+
+.controls button#break:hover {
+    background-color: #bd8535;
+}
+
+.controls button#mode-toggle {
+    background-color: #4a90e2;
+}
+
+.controls button#mode-toggle:hover {
+    background-color: #357abd;
+} 
